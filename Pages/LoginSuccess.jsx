@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  NativeBaseProvider,
-  Box,
-  VStack,
-  HStack,
-  FlatList,
-  ZStack,
-} from "native-base";
+import { NativeBaseProvider, VStack } from "native-base";
 import { Text } from "react-native";
 
 const LoginSuccess = ({ route, navigation }) => {
